@@ -200,26 +200,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>Libraries\DigitalDevilSaga\Modules\Common\\Functions.json</TargetPath>
     </ContentWithTargetPath>
-    <ContentWithTargetPath Include="Libraries\Nocturne.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <TargetPath>Libraries\\Nocturne.json</TargetPath>
-    </ContentWithTargetPath>
-    <ContentWithTargetPath Include="Libraries\Nocturne\FlowScriptModules.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <TargetPath>Libraries\Nocturne\\FlowScriptModules.json</TargetPath>
-    </ContentWithTargetPath>
-    <ContentWithTargetPath Include="Libraries\Nocturne\MessageScriptLibrary.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <TargetPath>Libraries\Nocturne\\MessageScriptLibrary.json</TargetPath>
-    </ContentWithTargetPath>
-    <ContentWithTargetPath Include="Libraries\Nocturne\Modules\Common\Enums.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <TargetPath>Libraries\Nocturne\Modules\Common\\Enums.json</TargetPath>
-    </ContentWithTargetPath>
-    <ContentWithTargetPath Include="Libraries\Nocturne\Modules\Common\Functions.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <TargetPath>Libraries\Nocturne\Modules\Common\\Functions.json</TargetPath>
-    </ContentWithTargetPath>
     <ContentWithTargetPath Include="Libraries\Persona3.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>Libraries\\Persona3.json</TargetPath>
@@ -500,9 +480,17 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>Libraries\PersonaQ2\Modules\Script\\Functions.json</TargetPath>
     </ContentWithTargetPath>
+    <ContentWithTargetPath Include="Libraries\PersonaQ2\Modules\Script\Enums.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Libraries\PersonaQ2\Modules\Script\\Enums.json</TargetPath>
+    </ContentWithTargetPath>
     <ContentWithTargetPath Include="Libraries\PersonaQ2\Modules\Window\Functions.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>Libraries\PersonaQ2\Modules\Window\\Functions.json</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="Libraries\PersonaQ2\Modules\Window\Enums.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Libraries\PersonaQ2\Modules\Window\\Enums.json</TargetPath>
     </ContentWithTargetPath>
   </ItemGroup>
   <ItemGroup>
@@ -583,6 +571,8 @@
     <Resource Include="Assets\p1psp.png" />
     <Resource Include="Assets\p1pspicon.png" />
     <Content Include="AtlusScriptLibrary.dll" />
+    <Content Include="AtlusScriptLibrary.deps.json" />
+    <Content Include="AtlusScriptLibrary.pdb" />
     <Content Include="Dependencies\CpkMakeC\CpkBinder.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

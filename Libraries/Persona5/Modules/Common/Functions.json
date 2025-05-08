@@ -927,12 +927,12 @@
     "Description": "",
     "Parameters": [
       {
-        "Type": "PartyMember",
+        "Type": "int",
         "Name": "param1",
         "Description": ""
       },
       {
-        "Type": "EquipSlotID",
+        "Type": "int",
         "Name": "param2",
         "Description": ""
       }
@@ -945,12 +945,12 @@
     "Description": "",
     "Parameters": [
       {
-        "Type": "PartyMember",
+        "Type": "int",
         "Name": "param1",
         "Description": ""
       },
       {
-        "Type": "EquipSlotID",
+        "Type": "int",
         "Name": "param2",
         "Description": ""
       },
@@ -4394,7 +4394,7 @@
     "Description": "",
     "Parameters": [
       {
-        "Type": "PartyMember",
+        "Type": "int",
         "Name": "param1",
         "Description": ""
       }
